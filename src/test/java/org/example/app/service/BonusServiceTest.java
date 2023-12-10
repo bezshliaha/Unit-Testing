@@ -21,7 +21,6 @@ class BonusServiceTest {
     @DisplayName("Expected test")
     void getRes_ok() {
         assertEquals("0,23", bonusService.getRes(2.3456d));
-
     }
     @Test
     @DisplayName("Unexpected test")
